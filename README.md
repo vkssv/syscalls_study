@@ -1,6 +1,3 @@
-@settings {
-  font-size: 11;
-}
 
 syscalls_study with inline assembly for i386, x86-64, x32
 
