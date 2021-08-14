@@ -7,7 +7,10 @@ syscalls_study with inline assembly for i386, x86-64, x32
 
 2. examples of 32-bit fast syscalls (__kernel_vsyscall, sysenter/sysexit)
 	- fast_syscall32_exit_sysenter.c
+	  gcc -m32 -o exit_sysenter fast_syscall32_exit_sysenter.c
+
 	- fast_syscall32_chdir_sysenter.c
+	  gcc -m32 -o chdir_sysenter fast_syscall32_chdir_sysenter.c
 
 3. examples of 64-bit fast syscalls (syscall/sysret)
 	- fast_syscall64_exit_syscall.c
