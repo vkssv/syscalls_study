@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h> /* has forgot it :), declaration of syscall ! */
+#include <stdint.h>
 #include <string.h>
 #include <sys/utsname.h>
 #include <errno.h>
 
 int main(int argc, char *argv[]) {
-	unsigned long syscall_nr = 63; /* uname */
+	uint64_t syscall_nr = 63; /* uname */
 	struct utsname buff;
 	(void)argc;
 	(void)argv;

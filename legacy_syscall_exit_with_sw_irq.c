@@ -1,7 +1,9 @@
+#include <stdint.h>
+
 int main(int argc, char *argv[])
 {
-	unsigned int syscall_nr = 1;
-	int exit_status = 13;
+	uint64_t syscall_nr = 1;
+	int64_t exit_status = 13;
 	(void) argc;
 	(void) argv;
 

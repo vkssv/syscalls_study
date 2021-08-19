@@ -4,8 +4,8 @@
 int
 main(int argc, char *argv[], char *envp[])
 {
-	unsigned int syscall_nr = 1; /* simple exit */
-	int exit_status = 13;
+	uint32_t syscall_nr = 1; /* simple exit */
+	uint32_t exit_status = 13;
 	Elf32_auxv_t *auxv;
 	(void) argc;
 	(void) argv;

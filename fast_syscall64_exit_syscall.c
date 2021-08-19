@@ -1,8 +1,10 @@
+#include <stdint.h>
+
 int
 main(int argc, char *argv[])
 {
-	unsigned long syscall_nr = 60;
-	long status = 77;
+	uint64_t syscall_nr = 60;
+	int64_t status = 77;
 	(void) argc;
 	(void) argv;
 

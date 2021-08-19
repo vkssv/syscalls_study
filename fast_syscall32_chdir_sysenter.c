@@ -8,10 +8,10 @@
 int
 main(int argc, char *argv[]){
 
-	char new_path[PATH_MAX] = "/tmp";
-	char *current_path;
-	unsigned long vsyscall_addr;
-	unsigned int syscall_nr = 12; /* chdir */
+	uint8_t new_path[PATH_MAX] = "/tmp";
+	uint8_t *current_path;
+	uint32_t vsyscall_addr;
+	uint32_t syscall_nr = 12; /* chdir */
 	(void) argc;
 	(void) argv;
 
