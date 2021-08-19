@@ -6,7 +6,7 @@
 int
 main(int argc, char *argv[]){
 	uint64_t syscall_nr = 2; /* fork */
-	pid_t pid_child;
+	volatile pid_t pid_child;
 	(void) argc;
 	(void) argv;
 
