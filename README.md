@@ -20,4 +20,4 @@ syscalls_study with inline assembly for i386, x86-64, x32
 	- glibc_syscall_wrapper_exit.c
 	- glibc_syscall_wrapper_uname.c
 
-5. not_work, more examples for fast 64-bit syscalls to fix later.
+5. not_work, more examples for fast 64-bit syscalls to play later.
